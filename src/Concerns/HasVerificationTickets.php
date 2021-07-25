@@ -5,17 +5,17 @@ declare(strict_types=1);
 /*
  * This file is part of Laravel Verification Tickets.
  *
- * (c) KodeKeep <hello@kodekeep.com>
+ * (c) Konceiver <info@konceiver.dev>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\VerificationTickets\Concerns;
+namespace Konceiver\VerificationTickets\Concerns;
 
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 use Illuminate\Support\Str;
-use KodeKeep\VerificationTickets\Models\VerificationTicket;
+use Konceiver\VerificationTickets\Models\VerificationTicket;
 
 trait HasVerificationTickets
 {

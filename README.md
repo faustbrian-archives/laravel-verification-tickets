@@ -1,24 +1,24 @@
 # Laravel Verification Tickets
 
-[![Latest Version](https://badgen.net/packagist/v/kodekeep/laravel-verification-tickets)](https://packagist.org/packages/kodekeep/laravel-verification-tickets)
-[![Software License](https://badgen.net/packagist/license/kodekeep/laravel-verification-tickets)](https://packagist.org/packages/kodekeep/laravel-verification-tickets)
-[![Build Status](https://img.shields.io/github/workflow/status/kodekeep/laravel-verification-tickets/run-tests?label=tests)](https://github.com/kodekeep/laravel-verification-tickets/actions?query=workflow%3Arun-tests+branch%3Amaster)
-[![Coverage Status](https://badgen.net/codeclimate/coverage/kodekeep/laravel-verification-tickets)](https://codeclimate.com/github/kodekeep/laravel-verification-tickets)
-[![Quality Score](https://badgen.net/codeclimate/maintainability/kodekeep/laravel-verification-tickets)](https://codeclimate.com/github/kodekeep/laravel-verification-tickets)
-[![Total Downloads](https://badgen.net/packagist/dt/kodekeep/laravel-verification-tickets)](https://packagist.org/packages/kodekeep/laravel-verification-tickets)
+[![Latest Version](https://badgen.net/packagist/v/konceiver/laravel-verification-tickets)](https://packagist.org/packages/konceiver/laravel-verification-tickets)
+[![Software License](https://badgen.net/packagist/license/konceiver/laravel-verification-tickets)](https://packagist.org/packages/konceiver/laravel-verification-tickets)
+[![Build Status](https://img.shields.io/github/workflow/status/konceiver/laravel-verification-tickets/run-tests?label=tests)](https://github.com/konceiver/laravel-verification-tickets/actions?query=workflow%3Arun-tests+branch%3Amaster)
+[![Coverage Status](https://badgen.net/codeclimate/coverage/konceiver/laravel-verification-tickets)](https://codeclimate.com/github/konceiver/laravel-verification-tickets)
+[![Quality Score](https://badgen.net/codeclimate/maintainability/konceiver/laravel-verification-tickets)](https://codeclimate.com/github/konceiver/laravel-verification-tickets)
+[![Total Downloads](https://badgen.net/packagist/dt/konceiver/laravel-verification-tickets)](https://packagist.org/packages/konceiver/laravel-verification-tickets)
 
 This package was created by, and is maintained by [Brian Faust](https://github.com/faustbrian), and provides an easy way of implementing entity verification.
 
 ## Installation
 
 ```bash
-composer require kodekeep/laravel-verification-tickets
+composer require konceiver/laravel-verification-tickets
 ```
 
 ## Usage
 
 ```php
-$skeleton = new KodeKeep\VerificationTicket();
+$skeleton = new Konceiver\VerificationTicket();
 echo $skeleton->echoPhrase('Hello, KodeKeep!');
 ```
 
@@ -38,7 +38,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to hello@kodekeep.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to hello@konceiver.dev. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 

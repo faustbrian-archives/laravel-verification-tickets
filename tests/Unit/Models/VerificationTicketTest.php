@@ -2,7 +2,7 @@
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
-use KodeKeep\VerificationTickets\Models\VerificationTicket;
+use Konceiver\VerificationTickets\Models\VerificationTicket;
 
 it('morphs to verifiable', function () {
     $this->assertInstanceOf(MorphTo::class, (new VerificationTicket())->verifiable());

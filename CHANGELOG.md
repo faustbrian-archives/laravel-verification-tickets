@@ -11,4 +11,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 -   initial release
 
-[unreleased]: https://github.com/kodekeep/laravel-verification-tickets/compare/master...develop
+[unreleased]: https://github.com/konceiver/laravel-verification-tickets/compare/master...develop
